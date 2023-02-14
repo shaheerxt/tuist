@@ -19,7 +19,7 @@ The process is relatively fast because we are actually not installing the tool. 
 A very common issue working on iOS projects is **not having a reproducible environment**. Very often, projects depend on things that should be installed by other tools. To give you an example, if your project depends on [Fastlane](https://fastlane.tools/), chances are that it depends on [Bundler](https://bundler.io/) being installed in the system and a clean Ruby environment with the version that the project expects. If any of those things are missing or are not in a good state, it results in unexpected outputs and a really bad experience for your developers.  
 To avoid that, Tuist is self-contained and comes with `tuistenv` which ensures that the right version is used. It manages different versions in your environment and runs the version your project is pinned to. Thanks to that, we ensure that anyone in your team will use the same version of Tuist.  
 In a more advanced section on the documentation, we'll see the power of `tuistenv`. For now, we'll keep things simple and just assume that we are running Tuist directly.
-
+ 
 ### Creating our first project
 
 Now that we have Tuist installed, we can create our first project. Create a directory for your app:
